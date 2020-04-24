@@ -27,7 +27,7 @@
     <url-pattern>/*</url-pattern>
   </filter-mapping>
 
-  <!--配置Listener-->
+  <!--配置加载Spring配置文件的Listener-->
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
